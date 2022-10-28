@@ -1,0 +1,24 @@
+{
+  "name": "css-frameworks",
+  "version": "0.0.1",
+  "description": "A social media application written with Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinthoresen/css-frameworks-ca.git"
+  },
+  "keywords": [
+    "css",
+    "frameworks",
+    "bootstrap"
+  ],
+  "author": "Martin Thoresen <martin2resen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinthoresen/css-frameworks-ca/issues"
+  },
+  "homepage": "https://github.com/martinthoresen/css-frameworks-ca#readme"
+}
