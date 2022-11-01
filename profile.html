@@ -43,7 +43,7 @@
     <main>
       <h1 class="text-white text-center text-bg-dark pb-3 mb-5">Your Profile</h1>
       <div class="container mb-5">
-        <div class="card d-flex align-items-center col-12">
+        <div class="card d-flex align-items-center col-12 p-2 bg-dark bg-opacity-25 text-white">
           <img class="card-img rounded-circle" style="width: 150px; height: 150px; object-fit: cover" src="images/sergio_paula.jpeg" alt="Sergio Paula" />
           <h2 class="card-header">Sergio Paula</h2>
           <p class="card-text">@sergio_paula</p>
@@ -60,7 +60,7 @@
         <div class="container d-flex flex-column flex-lg-row align-items-start">
           <section class="container card p-3 bg-dark bg-opacity-25">
             <h2 class="text-white h3">Post something to your wall</h2>
-            <div class="row g-3">
+            <form class="row g-3 form-floating">
               <div class="form-floating">
                 <select class="form-select" id="formSelect" aria-label="Select a subject for your message">
                   <option value="1">Leisure</option>
@@ -70,13 +70,13 @@
                 <label for="formSelect">Select a subject...</label>
               </div>
               <div class="form-floating">
-                <textarea id="message" class="form-control"></textarea>
+                <textarea id="message" class="form-control" style="height: 150px"></textarea>
                 <label for="message">Write your message...</label>
               </div>
               <div class="form-floating">
                 <button class="btn btn-info col-4" type="submit">Post</button>
               </div>
-            </div>
+            </form>
           </section>
           <section class="col-lg-8">
             <h2 class="text-center text-white">Your Wall</h2>
@@ -89,6 +89,7 @@
                 <div>
                   <p class="card-header text-info bg-transparent text-end">Edit</p>
                   <h3 class="card-title">The future of automobiles</h3>
+                  <p class="text-secondary">Leisure</p>
                   <p>In this age we're living in, we need to think innovative. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia aliquid ducimus nobis, impedit sunt dolorum tempore iste neque atque in porro veniam ut odit earum nulla, laboriosam consequatur molestiae debitis.</p>
                 </div>
               </div>
@@ -100,19 +101,9 @@
                   <p>Sergio Paula</p>
                 </div>
                 <div>
+                  <p class="card-header text-info bg-transparent text-end">Edit</p>
                   <h3 class="card-title">The future of automobiles</h3>
-                  <p>In this age we're living in, we need to think innovative. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia aliquid ducimus nobis, impedit sunt dolorum tempore iste neque atque in porro veniam ut odit earum nulla, laboriosam consequatur molestiae debitis.</p>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="card p-2 bg-dark bg-opacity-25 border-0 my-2 d-flex flex-row">
-                <div class="container">
-                  <img class="card-img rounded-circle" style="width: 100px; height: 100px; object-fit: cover" src="images/sergio_paula.jpeg" alt="Sergio Paula" />
-                  <p>Sergio Paula</p>
-                </div>
-                <div>
-                  <h3 class="card-title">The future of automobiles</h3>
+                  <p class="text-secondary">Automobile</p>
                   <p>In this age we're living in, we need to think innovative. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia aliquid ducimus nobis, impedit sunt dolorum tempore iste neque atque in porro veniam ut odit earum nulla, laboriosam consequatur molestiae debitis.</p>
                 </div>
               </div>
