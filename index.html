@@ -41,11 +41,21 @@
     </header>
     <img src="" alt="" />
     <main>
-      <h1 class="d-flex justify-content-center">Catch up with your friends...</h1>
-      <section>
-        <div class="container">
-          <h2>The good life</h2>
-          <p>We had a lot of fun!</p>
+      <h1 class="d-flex justify-content-center">Home</h1>
+      <section class="container">
+        <div class="row g-2">
+          <div class="form-floating">
+            <select class="form-select" id="formSelect" aria-label="Select a subject for your message">
+              <option value="1">Leisure</option>
+              <option value="2">Automobile</option>
+              <option value="3">Politics</option>
+            </select>
+            <label for="formSelect">Select a subject...</label>
+          </div>
+          <div class="form-floating">
+            <textarea id="message" class="form-control"></textarea>
+            <label for="message">Write your message...</label>
+          </div>
         </div>
       </section>
     </main>
