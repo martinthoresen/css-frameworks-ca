@@ -1,4 +1,15 @@
-$primary: purple;
-
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+h1,
+h2,
+h3,
+p {
+  color: #f0ebd8;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
