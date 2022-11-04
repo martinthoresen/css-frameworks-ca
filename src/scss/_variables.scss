@@ -1,5 +1,3 @@
-@import "../../node_modules/bootstrap/scss/functions";
-
 $blue: #5d95e8;
 $indigo: #916fc8;
 $purple: #5d3b9c;
@@ -10,3 +8,10 @@ $yellow: #ffdf7e;
 $green: #4fe49e;
 $teal: #9fffe2;
 $cyan: #8eecff;
+
+$dark: #131933;
+$secondary: #294568;
+$primary: #3e5c76;
+$light: #f0ebd8;
+$info: #95b4dd;
+@import "../../node_modules/bootstrap/scss/functions";

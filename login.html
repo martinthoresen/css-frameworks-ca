@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-primary">
+<html lang="en" class="bg-primary bg-gradient">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,7 +15,7 @@
       <div class="px-3 py-2 text-bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto h1 link-primary"><i class="fa-brands fa-slack"></i></a>
+            <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto h1"><i class="fa-brands fa-slack"></i></a>
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
               <li>
                 <a href="index.html" class="nav-link text-white d-flex flex-column">
@@ -45,18 +45,16 @@
       <div class="container">
         <div class="card d-flex align-items-center col-12 py-3 bg-dark bg-opacity-25">
           <h2 class="text-white mb-5">Log in to your account</h2>
-          <form class="row g-3 form-floating">
+          <form action="/login.html" class="row g-3 form-floating">
             <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required />
               <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-              <label for="floatingPassword">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password" required minlength="6" />
+              <label for="password">Password</label>
             </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-info">Log In</button>
-            </div>
+            <button type="submit" class="btn btn-info">Log In</button>
           </form>
         </div>
       </div>
