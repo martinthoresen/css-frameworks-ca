@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-primary bg-gradient">
+<html lang="en" class="bg-primary">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -41,10 +41,10 @@
       </div>
     </header>
     <main>
-      <h1 class="text-white text-center text-bg-dark pb-3 mb-5">Your Profile</h1>
+      <h1 class="text-center text-bg-dark pb-3 mb-5">Your Profile</h1>
       <div class="container">
         <div class="card d-flex align-items-center col-12 py-3 bg-dark bg-opacity-25">
-          <h2 class="text-white mb-5">Log in to your account</h2>
+          <h2 class="mb-5">Log in to your account</h2>
           <form action="/login.html" class="row g-3 form-floating">
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required />
@@ -54,8 +54,9 @@
               <input type="password" class="form-control" id="password" placeholder="Password" required minlength="6" />
               <label for="password">Password</label>
             </div>
-            <button type="submit" class="btn btn-info">Log In</button>
+            <button type="submit" class="btn btn-info my-4">Log In</button>
           </form>
+          <p>Not a member? <a href="#" class="link-light">Register Here...</a></p>
         </div>
       </div>
     </main>
